@@ -1,0 +1,22 @@
+# Node
+node_modules/
+.env
+
+# Flutter
+build/
+.dart_tool/
+.flutter-plugins
+.packages
+
+# React Native
+android/app/build/
+ios/Pods/
+*.xcworkspace
+*.xcodeproj
+
+# General
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.apk
