@@ -1,0 +1,117 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 20px;
+    padding: 16px 24px;
+    color: #90caf9;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+#chat-friend {
+    max-width: 620px;
+    margin: 40px auto;
+    background: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(144, 202, 249, 0.3);
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+#chat-window {
+    height: 420px;
+    overflow-y: auto;
+    background: #222;
+    padding: 20px;
+    border-bottom: 1px solid #333;
+    scrollbar-width: thin;
+    scrollbar-color: #90caf9 #1e1e1e;
+}
+
+/* Custom scrollbar for browers*/
+#chat-window::-webkit-scrollbar {
+    width: 8px;
+}
+
+#chat-window::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+#chat-window::-webkit-scrollbar-thumb {
+    background: #90caf9;
+    border-radius: 4px;
+}
+
+#outout p {
+    margin: 0 0 12px 0;
+    line-height: 1.5;
+    color: #ccc;
+    padding-left: 12px;
+    border-left: 3px solid #90caf9;
+    word-wrap: break-word;
+}
+
+#output strong {
+    color: #64b5f6;
+    font-weight: 600;
+}
+
+#feedback p {
+    color: #666;
+    font-style: italic;
+    padding: 12px 20px;
+    margin: 0;
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    padding: 12px 20px;
+    font-weight: 600;
+    color: #90caf9;
+    letter-spacing: 0.5px;
+}
+
+input {
+    padding: 14px 20px;
+    background: #121212;
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: #eee;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #64b5f6;
+    outline: none;
+    background: #1a1a1a;
+}
+
+button {
+    background: #64b5f6;
+    color: #121212;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    padding: 14px 0;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #90caf9;
+}
